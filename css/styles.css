@@ -25,8 +25,7 @@ body {
 .site-header {
   background-color: #eee;
   margin-bottom: 30px;
-  ;
-}
+  }
 
 .header-container {
   padding-top: 30px;
@@ -81,6 +80,7 @@ body {
   padding: 13px 192px 12px 15px;
   border-radius: 60px;
   border: transparent;
+  margin-right: 25px;
 
 
 }
@@ -104,21 +104,13 @@ body {
   line-height: 15px;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 25px;
 }
 
 .language li {
   font-size: 13px;
   line-height: 15px;
 }
-
-
-.joy:not(:first-child){
-  margin-left: 25px;
-}
-/* .language:not(:last-child){
-margin-left: 15px;
-} */
-
 
 .uzbek {
   width: 30px;
@@ -129,6 +121,9 @@ margin-left: 15px;
   padding: 8px 7px;
 }
 
+.language-link{
+  text-decoration: none;
+}
 .main-link {
   padding: 13px 20px;
   background-color: #7296EC;
