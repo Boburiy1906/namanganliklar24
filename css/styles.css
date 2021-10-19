@@ -111,6 +111,10 @@ body {
   line-height: 15px;
 }
 
+
+.joy:not(:first-child){
+  margin-left: 25px;
+}
 /* .language:not(:last-child){
 margin-left: 15px;
 } */
