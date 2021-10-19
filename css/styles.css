@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "rubik", "arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4A4B4C;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+.site-header {
+  background-color: #eee;
+  margin-bottom: 30px;
+  ;
+}
+
+.header-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  width: 276px;
+  padding: 8px 6px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 7px;
+  color: #7296EE;
+  line-height: 28px;
+}
+
+.site-section-1 {
+  display: flex;
+  align-items: center;
+}
+
+.valuta {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 35px;
+
+}
+
+.valuta li {
+  margin-left: 25px;
+}
+
+.valuta li:not(:last-child) {
+  margin-left: 0px;
+}
+
+.strong {
+  color: #2959CE;
+}
+
+.search {
+  width: 275px;
+  background-color: #fff;
+  padding: 13px 192px 12px 15px;
+  border-radius: 60px;
+  border: transparent;
+
+
+}
+
+.site-section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language {
+  display: flex;
+  list-style: none;
+  width: 70px;
+  background-color: #DCE6FF;
+  border-radius: 39px;
+  padding: 3px 37px 3px 3px;
+  align-items: center;
+  font-family: "rubik";
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.language li {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* .language:not(:last-child){
+margin-left: 15px;
+} */
+
+
+.uzbek {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 8px 7px;
+}
+
+.main-link {
+  padding: 13px 20px;
+  background-color: #7296EC;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* SITENAV */
+.sitenav {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.sitenav-list {
+  margin-top: 0px;
+
+  background-color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sitenav-list-items-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #7F7F7F;
+}
+
+.line {
+  margin-top: 0;
+  border: 1px solid #d1d1d1;
+  width: 1200px;
+  margin-bottom: 40px;
+}
+
+.promo-icon {
+  width: 1200px;
+  height: 128px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
