@@ -25,7 +25,7 @@ body {
 .site-header {
   background-color: #eee;
   margin-bottom: 30px;
-  }
+}
 
 .header-container {
   padding-top: 30px;
@@ -81,7 +81,10 @@ body {
   border-radius: 60px;
   border: transparent;
   margin-right: 25px;
-
+  /* background-image: url(../img/optimize\ 1.png);
+  background-size: 50px;
+  background-position: center center;
+  background-repeat: no-repeat; */
 
 }
 
@@ -103,7 +106,7 @@ body {
   font-size: 13px;
   line-height: 15px;
   padding-top: 0px;
-  padding-bottom:  0px;
+  padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 25px;
@@ -123,9 +126,10 @@ body {
   padding: 8px 7px;
 }
 
-.language-link{
+.language-link {
   text-decoration: none;
 }
+
 .main-link {
   padding: 13px 20px;
   background-color: #7296EC;
