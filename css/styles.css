@@ -21,6 +21,10 @@ body {
   margin-right: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* HEADER */
 .site-header {
   background-color: #eee;
@@ -37,6 +41,8 @@ body {
 }
 
 .logo {
+  text-decoration: none;
+  display: block;
   width: 276px;
   padding: 8px 6px;
   margin-bottom: 0px;
@@ -56,18 +62,15 @@ body {
 .valuta {
   display: flex;
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 35px;
-
+  margin: 0px;
 }
 
-.valuta li {
+.valuta li:not(:first-child) {
   margin-left: 25px;
 }
 
-.valuta li:not(:last-child) {
-  margin-left: 0px;
+.valuta li {
+  white-space: nowrap;
 }
 
 .strong {
@@ -75,12 +78,10 @@ body {
 }
 
 .search {
-  width: 275px;
-  background-color: #fff;
-  padding: 13px 192px 12px 15px;
-  border-radius: 60px;
-  border: transparent;
-  margin-right: 25px;
+  outline: none;
+  border: none;
+  outline: none;
+
 
 }
 
@@ -90,14 +91,19 @@ body {
   justify-content: space-between;
 }
 
-.label{
+.label {
   display: flex;
   align-items: center;
-
+  background-color: #fff;
+  padding: 13px 192px 12px 15px;
+  border-radius: 60px;
+  border: transparent;
+  margin-right: 25px;
+  width: 275px;
 }
 
-.lupa{
-width: 20px;
+.lupa {
+  width: 20px;
 
 }
 
@@ -107,30 +113,24 @@ width: 20px;
   width: 70px;
   background-color: #DCE6FF;
   border-radius: 39px;
-  padding: 3px 37px 3px 3px;
-  align-items: center;
+  padding: 3px;
   font-family: "rubik";
   font-size: 13px;
   line-height: 15px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin-right: 25px;
 }
 
 .language li {
   font-size: 13px;
   line-height: 15px;
+  padding: 8px 7px;
 }
 
-.uzbek {
-  width: 30px;
-  height: 30px;
+.active {
   margin-right: 8px;
   border-radius: 50%;
   background-color: #fff;
-  padding: 8px 7px;
+
 }
 
 .language-link {
@@ -147,35 +147,42 @@ width: 20px;
 
 /* SITENAV */
 .sitenav {
-  margin-top: 0px;
   margin-bottom: 20px;
 }
 
 .sitenav-list {
-  margin-top: 0px;
-
+  padding: 0px;
   background-color: #fff;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+
 }
 
-.sitenav-list-items-link {
+.sitenav-list-link {
   text-decoration: none;
   font-weight: 500;
   color: #7F7F7F;
 }
 
+.link-item:not(:first-child) {
+  margin-left: 45px;
+}
+
 .line {
-  margin-top: 0;
+  margin-top: 0px;
   border: 1px solid #d1d1d1;
   width: 1200px;
   margin-bottom: 40px;
 }
 
+.promo-img {
+  margin-bottom: 50px;
+}
+
 .promo-icon {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 128px;
   border-radius: 8px;
-  margin-bottom: 50px;
+
 }
