@@ -81,10 +81,6 @@ body {
   border-radius: 60px;
   border: transparent;
   margin-right: 25px;
-  /* background-image: url(../img/optimize\ 1.png);
-  background-size: 50px;
-  background-position: center center;
-  background-repeat: no-repeat; */
 
 }
 
@@ -92,6 +88,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.label{
+  display: flex;
+  align-items: center;
+
+}
+
+.lupa{
+width: 20px;
+
 }
 
 .language {
