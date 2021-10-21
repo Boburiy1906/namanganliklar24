@@ -118,6 +118,8 @@ img {
   font-size: 13px;
   line-height: 15px;
   margin-right: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .language li {
@@ -155,6 +157,7 @@ img {
   background-color: #fff;
   list-style: none;
   display: flex;
+  margin-top: 0px;
 
 }
 
