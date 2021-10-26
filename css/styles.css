@@ -2,7 +2,15 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "rubik", "arial", sans-serif;
@@ -10,6 +18,11 @@ body {
   font-weight: 400;
   color: #4A4B4C;
   background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -21,10 +34,6 @@ body {
   margin-right: auto;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 /* HEADER */
 .site-header {
@@ -193,59 +202,94 @@ img {
   height: 128px;
   border-radius: 8px;
 
-  }
+}
 
 
-  /* SITE-NEWS */
+/* SITE-NEWS */
 
-  .site-news {
+.site-news {}
 
-  }
+.qwerty {
+  margin-left: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
 
-  .qwerty{
-    margin-left: -10px;
-    display: flex;
-    flex-wrap: wrap;
-     }
-
-  .site-news-items {
-max-width: 393px;
-margin-left: 10px;
-margin-bottom: 10px;
-background-color: #F6F6F6;
-border-radius: 15px;
+.site-news-items {
+  max-width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #F6F6F6;
+  border-radius: 15px;
 
 }
 
 
-  .site-news-heading {
-font-weight: 500;
-font-size: 20px;
-color: #000;
-line-height: 26px;
-text-decoration: none;
-  }
+.site-news-heading {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  line-height: 26px;
+  text-decoration: none;
+}
 
-.padding{
+.news-heading-text {
+  padding: 28px;
+}
+
+.padding {
   padding: 20px 18px;
 }
 
-  .site-news-text {
+.site-news-text {}
 
-  }
+.site-news-img {}
 
-  .site-news-img {
+.small-content {
+  display: flex;
+  align-items: center;
 
+}
 
-  }
-  .small-content{
-    display: flex;
-  }
+.site-news-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
 
-  .small-content {
+.small-content {}
 
-  }
+.icon-text {}
 
-  .icon-text {
+.site-news-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1050px;
 
-  }
+}
+
+.nimadir {
+  display: flex;
+  align-items: center;
+  margin-top: -94px;
+  margin-left: 110px;
+}
+
+.site-news-image-text {
+  max-width: 404px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000;
+  margin-right: 400px;
+}
+
+.site-news-image-link {
+  text-decoration: none;
+  padding: 13px 30px;
+  background-color: #F78B3B;
+  color: #fff
+}
