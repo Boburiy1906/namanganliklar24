@@ -266,18 +266,24 @@ img {
 }
 
 
-.padding {
+.site-news-card {
   display: flex;
   flex-direction: column;
   padding: 20px 17px 15px;
+
 }
 
-.site-news-link {
+.site-news-heading-link {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 20px;
-  color: #000;
   line-height: 26px;
+}
+
+.site-news-link {
+  color: #000;
   text-decoration: none;
 }
 
@@ -290,9 +296,9 @@ img {
 }
 
 .site-news-text {
-  line-height: 22px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 15px;
+  line-height: 22px;
 }
 
 .site-news-img {
@@ -303,11 +309,6 @@ img {
   width: 359px;
   height: 165px;
   border-radius: 10px;
-}
-
-
-.news-heading-text {
-  margin-bottom: 15px;
 }
 
 
@@ -373,6 +374,7 @@ img {
 
 .site-global-news {
   display: flex;
+  margin-bottom: 100px;
 }
 
 
@@ -513,4 +515,96 @@ img {
 
 .global-news-right-section-img {
   width: 393px;
+}
+
+
+
+/* SITE-FOOTER */
+
+.site-footer {
+  background-color: #7297ef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.site-footer-container {
+  max-width: 998px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-footer-logo {
+  margin-bottom: 15px;
+}
+
+.footer-logo {
+  background-color: #7297ef;
+  color: #fff;
+}
+
+.site-footer-items {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cecece;
+
+}
+
+.site-footer-text {
+  max-width: 229px;
+  font-size: 12px;
+  line-height: 19px;
+  color: #fff;
+
+}
+
+.site-footer-copyright-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-footer-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+}
+
+.site-footer-link {
+  font-weight: 500;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.site-footer-link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+}
+
+.social-links-icons {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-footer-social-icons:not(:first-child) {
+  margin-left: 25px;
+
+
 }
