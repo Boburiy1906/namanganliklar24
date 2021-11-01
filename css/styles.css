@@ -471,16 +471,23 @@ img {
 }
 
 
-/* RIGHT-SECTION */
+/* POPULAR-NEWS */
 
-.right-section {
+.popular-news {
+  /* display: flex;
+flex-direction: column; */
+
+}
+
+.popular-news-box {
+  flex-direction: column;
   background-color: #f6f6f6;
-  /* border: 1px solid #000; */
+  margin-bottom: 10px;
   padding: 20px 20px 25px 17px;
   border-radius: 15px;
 }
 
-.global-news-right-section {}
+.global-news-popular-news {}
 
 .global-news-right-contents {
   max-width: 356px;
@@ -492,19 +499,16 @@ img {
   margin-bottom: 20px;
 }
 
-.global-news-right-section-heading {
+.global-news-popular-news-heading {
   margin-top: 0;
   margin-bottom: 8px;
 }
 
 .global-news-right-contents-list {
-  display: flex;
-  flex-direction: column;
+  padding: 0;
   max-height: 100%;
   max-width: 393px;
   margin-top: 0;
-  padding: 0;
-
 }
 
 .global-news-right-contents-link {
@@ -532,7 +536,7 @@ img {
   margin-top: 0;
 }
 
-.global-news-right-section-img {}
+.global-news-popular-news-img {}
 
 
 
